@@ -9,6 +9,7 @@ module.exports = {
 }
 
 function insert(smurf){
+    console.log(smurf)
     return db('smurfs').insert(smurf)
     //db(smurfs).insert(smurf,"id")
     //.then(ids=>{
